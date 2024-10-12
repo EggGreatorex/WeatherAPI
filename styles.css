@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #11111b;
+    margin: 14vh;
+}
+
+.logoImage {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    margin: 1vh; 
+    width: 17vh;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 70vh;
+    width: 70vh;
+    font-size: 2.5vh;
+    background-color: #181825;
+    border: 7px solid #1e1e2e ;
+    border-radius: 10vh;
+    position: relative;
+}
+
+.container input {
+    border: none;
+    outline: none;
+    font-size: 2.5vh;
+    color: rgb(239, 216, 216);
+    border-radius: 10vh;
+    height: 7vh;
+    width: 60vh;
+    text-align: center;
+    margin-bottom: 5vh;
+    background-color: #1e1e2e;
+    position: relative;
+}
+.container input:hover{
+    border: 4px solid #525270 ;
+}
+
+.container h1 {
+    color: rgb(239, 216, 216);
+}
