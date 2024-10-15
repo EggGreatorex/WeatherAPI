@@ -1,4 +1,4 @@
-API_KEY = 'e89f2f4e90580e10dd9c09a332d09e5c'
+API_KEY = ' '
 
 const input = document.getElementById('cityInput');
 
